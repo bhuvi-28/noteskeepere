@@ -17,14 +17,17 @@
         android:padding="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar_home"
-        android:background="@color/black"
-        app:title="@string/app_name"
-        android:layout_alignParentTop="true"
-        app:titleTextColor="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="9dp"
+        android:background="@color/black"
+        app:subtitleTextColor="@color/white"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/searchView_container"

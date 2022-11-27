@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Notekeeper</string>
+    <string name="notes_manager">NOTES MANAGER</string>
+    <string name="passwords_manager">PASSWORDS MANAGER</string>
 </resources>
